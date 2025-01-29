@@ -1,2 +1,2 @@
 print("Hello, World!")
-#Python HOME
+#Python Home
