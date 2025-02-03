@@ -2,13 +2,12 @@
 #to get a string from console input printString: to print the string in upper case.
 
 class Upper:
-    def __init__(task1):
-        task1.string=""
-    def getString(task1):
-        task1.string=input()
-    def printString(task1):
-        print(task1.string.upper())
-
+    def __init__(self):
+        self.string=""
+    def getString(self):
+        self.string=input()
+    def printString(self):
+        print(self.string.upper())
 x = Upper()
 x.getString()
 x.printString()
